@@ -31,7 +31,7 @@ public class SimpleClient extends AsyncTask<Void, Void, Void>{
 
         try {
 
-// Open your connection to a server, at port 1254
+// Open your connection to a server, at port 13085
             socket = new Socket("172.20.10.2", 13085);
             if(choice==1){
                 sendImage();
